@@ -1,0 +1,24 @@
+//reads in three numbers and writes them all in sorted order
+READ(*,*)  a, b, c
+   IF (a < b) THEN            	
+      IF (a < c) THEN          	
+     	IF (b < c) THEN       	
+        		WRITE(*,*)  a, b, c
+     	ELSE          	        
+        		WRITE(*,*)  a, c, b
+     	END IF
+  	ELSE                     	
+     		WRITE(*,*) c, a, b
+  	END IF
+   ELSE                        	
+   IF (b < c) THEN          	   
+     IF (a < c) THEN       	
+        	WRITE(*,*)  b, a, c
+     ELSE                  	
+        	WRITE(*,*)  b, c, a
+     END IF
+  ELSE                     	
+     	WRITE(*,*)  c, b, a
+  END IF
+END IF
+END 
