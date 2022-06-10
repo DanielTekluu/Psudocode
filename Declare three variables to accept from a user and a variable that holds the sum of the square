@@ -1,0 +1,11 @@
+//Declare three variables to accept from a user and a variable that holds the sum of the square root
+  Var Var1
+  Var Var2
+  Var Var3
+  Var Sum
+    Input à Var1
+    Input à Var2
+    Input à Var3
+  Sum= SauareRoot (Var1) + SauareRoot (Var2) + SauareRoot (Var3)
+  Return Sum
+
